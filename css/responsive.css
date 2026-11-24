@@ -1,0 +1,269 @@
+/* Responsive CSS Start */
+
+/* Large devices (laptop, <= 1199px) */
+@media (max-width: 1199px) {
+
+    .hero-text h1 {
+        font-size: 55px;
+        line-height: 68px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    .service-box {
+        padding: 35px 28px;
+    }
+
+    .customer-box {
+        padding: 35px;
+    }
+
+}
+
+/* Tablet (<= 991px) */
+@media (max-width: 991px) {
+
+    /* Navbar */
+    header .navbar-brand img {
+        width: 110px !important;
+    }
+
+    header .navbar-collapse {
+        text-align: center;
+    }
+
+    header .navbar-nav {
+        width: 100%;
+        margin: 0 !important;
+        align-items: center !important;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header .navbar-nav .nav-item {
+        width: 100%;
+    }
+
+    header .navbar-nav .nav-link {
+        text-align: center;
+        display: block;
+    }
+
+    header .navbar-collapse .custom-btn {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    /* Common */
+    .section-padding {
+        padding: 70px 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    /* Hero */
+    .bannerpart {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+    }
+
+    /* Portfolio */
+    .portfolio-box {
+        height: 280px;
+    }
+
+    /* Team */
+    .team-img {
+        height: 380px;
+    }
+
+    /* Customer */
+    .customer-header {
+        max-width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 70px;
+    }
+
+}
+
+/* Mobile landscape / small tablet (<= 767px) */
+@media (max-width: 767px) {
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .portfolio-box {
+        height: 300px;
+    }
+
+    .team-img {
+        height: 420px;
+    }
+
+    .news-main-img {
+        height: 220px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .socialmediaicon {
+        justify-content: center;
+    }
+
+}
+
+/* Mobile (<= 575px) */
+@media (max-width: 575px) {
+
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    header .nav-link {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .bannerpart {
+        padding: 50px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .hero-text p {
+        margin: 20px 0 25px;
+    }
+
+    .hero-btn {
+        padding: 12px 20px;
+    }
+
+    /* Services */
+    .service-box {
+        padding: 30px 25px;
+    }
+
+    .service-icon {
+        margin-bottom: 20px;
+    }
+
+    /* Portfolio */
+    .portfolio-box {
+        height: 260px;
+    }
+
+    .portfolio-hover {
+        opacity: 1;
+        transform: translateY(0);
+        padding: 15px;
+    }
+
+    .portfolio-hover h6 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    /* Team */
+    .team-img {
+        height: auto;
+    }
+
+    /* Customer */
+    .customer-box {
+        padding: 30px 25px;
+    }
+
+    .customer-box h5 {
+        font-size: 18px;
+    }
+
+    /* News */
+    .news-box {
+        padding: 14px;
+    }
+
+    .news-info {
+        gap: 15px;
+        margin: 15px 5px;
+        flex-wrap: wrap;
+    }
+
+    .news-text {
+        padding: 10px 5px;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer-links li {
+        margin-bottom: 12px;
+    }
+
+}
+
+/* Extra small devices (<= 380px) */
+@media (max-width: 380px) {
+
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .customer-box,
+    .service-box {
+        padding: 25px 20px;
+    }
+
+}
+
+/* Responsive CSS End */

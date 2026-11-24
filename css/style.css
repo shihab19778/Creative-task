@@ -1,0 +1,462 @@
+
+/* Common CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #5D5D5D;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header p {
+    max-width: 542px;
+    margin: 20px auto 0;
+}
+
+/* Common CSS End */
+
+
+/* Header Start */
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #181818;
+}
+
+.nav-link:hover {
+    color: #5956E8;
+}
+
+.custom-btn {
+    background-color: #5956E8;
+    color: #FFFFFF;
+    padding: 13px 24px;
+    border-radius: 10px;
+}
+
+.custom-btn:hover {
+    background-color: #4441c7;
+    color: #FFFFFF;
+}
+
+/* Header End */
+
+
+/* Hero Banner Start */
+
+.bannerpart {
+    background-color: #5956E8;
+    padding: 100px 0;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.hero-text p {
+    color: #FFFFFF;
+    margin: 25px 0 30px;
+}
+
+.hero-btn {
+    background-color: #FFFFFF;
+    color: #5956E8;
+    padding: 13px 22px;
+    border-radius: 10px;
+}
+
+.hero-btn:hover {
+    background-color: #eeeeee;
+    color: #5956E8;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/* Hero Banner End */
+
+
+/* Services Start */
+
+.service-box {
+    height: 100%;
+    padding: 43px 35px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.service-icon {
+    width: 71px;
+    height: 71px;
+    border: 1px solid #5956E8; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.4s; 
+   
+}
+
+
+
+.service-box h4 {
+    margin-bottom: 20px;
+}
+
+.service-box:hover {
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.service-box:hover .service-icon {
+    fill: #FFFFFF;
+    stroke: #5956E8;
+   
+}
+
+
+/* Services End */
+
+
+/* Portfolio Start */
+
+.portfolio-box {
+    width: 100%;
+    height: 319px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 19px 20px;
+}
+
+.portfolio1 {
+    background-image: url("../images/Portfolio7.png");
+}
+
+.portfolio2 {
+    background-image: url("../images/Portfolio8.png");
+}
+
+.portfolio3 {
+    background-image: url("../images/Portfolio3.png");
+}
+
+.portfolio4 {
+    background-image: url("../images/Portfolio4.png");
+}
+
+.portfolio5 {
+    background-image: url("../images/Portfolio5.png");
+}
+
+.portfolio6 {
+    background-image: url("../images/Portfolio6.png");
+}
+
+.portfolio7 {
+    background-image: url("../images/Portfolio7.png");
+}
+
+.portfolio8 {
+    background-image: url("../images/Portfolio8.png");
+}
+
+.portfolio-hover {
+    width: 100%;
+    background-color: #5956E8;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.4s;
+}
+
+.portfolio-box:hover .portfolio-hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.portfolio-hover h6 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.portfolio-hover a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+/* Portfolio End */
+
+
+/* Team Member Start */
+
+.team-img {
+    width: 100%;
+    height: 444px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Team Member End */
+
+
+/* Customer Experience Start */
+
+.customer-header {
+    max-width: 603px;
+    margin-bottom: 50px;
+}
+
+.customer-header p {
+    margin-top: 20px;
+}
+
+.customer-box {
+    height: 100%;
+    padding: 48px;
+    box-shadow: 0 6px 35px #00000014;
+    border-radius: 10px;
+}
+
+.customer-box .customer-star {
+    display: block;
+    margin-top: 30px;
+}
+
+.customer-box p {
+    margin: 20px 0 15px;
+}
+
+.customer-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-bottom h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5D5D5D;
+}
+
+.customer-bottom img {
+    width: 63px;
+    height: 46px;
+}
+
+/* Customer Experience End */
+
+
+/* News Start */
+
+.news-box {
+    height: 100%;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+.news-main-img {
+    width: 100%;
+    height: 198px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.news-info {
+    display: flex;
+    gap: 30px;
+    margin: 20px 15px;
+}
+
+.news-text {
+    padding: 10px 18px;
+}
+
+.news-text h4 {
+    line-height: 30px;
+}
+
+.news-text p {
+    margin: 15px 0 10px;
+}
+
+.news-text a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5956E8;
+}
+
+/* News End */
+
+
+/* Footer Start */
+
+.footer {
+    background-color: #F0F0FC;
+    margin-top: 100px;
+}
+
+.footer-description {
+    margin: 15px 0 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5956E8;
+}
+
+.social-icons a:hover {
+    background-color: #5956E8;
+    color: #FFFFFF;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #5D5D5D;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: #5956E8;
+}
+
+/* Footer End */
+
+
+/* Responsive CSS Start */
+
+@media (max-width: 991px) {
+
+    .navbar-nav {
+        padding: 20px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+    }
+
+    .section-padding {
+        padding: 70px 0;
+    }
+
+    .customer-header {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .service-box {
+        padding: 30px;
+    }
+
+    .customer-box {
+        padding: 30px;
+    }
+
+    .team-img {
+        height: auto;
+    }
+
+}
+
+/* Responsive CSS End */
